@@ -15,6 +15,14 @@ const routes = [
     path: '/history',
     name: 'History',
     component: History
+  },
+  {
+    path: '/',
+    redirect: '/character'
+  },
+  {
+    path: '**',
+    redirect: '/character'
   }
 ]
 
